@@ -103,7 +103,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .masthead h3 {
-  color: #bd3039 !important;
+  color: #fff !important;
 }
 
 @media (min-width:992px) {
