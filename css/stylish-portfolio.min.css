@@ -17,8 +17,8 @@ body {
 }
 
 .content-section {
-  padding-top: 7.5rem;
-  padding-bottom: 7.5rem
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem
 }
 
 .content-section-heading h2 {
@@ -245,7 +245,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   height: 100%;
   width: 100%;
-  background-color: rgba(33, 37, 41, .2);
+  background-color: rgba(33, 37, 41, .7);
   position: absolute;
   top: 0;
   bottom: 0;
@@ -258,7 +258,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .portfolio-item .caption .caption-content h2 {
-  font-size: .8rem;
+  font-size: 1.2rem;
+  text-align: center;
   text-transform: uppercase
 }
 
@@ -306,8 +307,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 footer.footer {
-  padding-top: 5rem;
-  padding-bottom: 5rem
+  background-color: #96949B;
+  padding-top: 3rem;
+  padding-bottom: 3rem
 }
 
 footer.footer .social-link {
