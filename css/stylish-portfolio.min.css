@@ -85,8 +85,8 @@ h1, h2, h3, h4, h5, h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, .1)), to(rgba(255, 255, 255, .1))), url(../img/new_zealand.jpg);
-  background: linear-gradient(90deg, rgba(255, 255, 255, .1) 0, rgba(255, 255, 255, .1) 100%), url(../img/new_zealand.jpg);
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, .1)), to(rgba(255, 255, 255, .1))), url(../img/ced_sock_banner.png);
+  background: linear-gradient(90deg, rgba(255, 255, 255, .1) 0, rgba(255, 255, 255, .1) 100%), url(../img/ced_sock_banner.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -99,11 +99,11 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 4rem;
   margin: 0;
   padding: 0;
-  color: #DBDBDB !important;
+  color: #bd3039 !important;
 }
 
 .masthead h3 {
-  color: #DBDBDB !important;
+  color: #bd3039 !important;
 }
 
 @media (min-width:992px) {
@@ -204,7 +204,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .service-icon {
-  background-color: #fff;
+  background-color: #4A777A;
   color: #1d809f;
   height: 7rem;
   width: 7rem;
@@ -318,7 +318,7 @@ footer.footer .social-link {
   width: 4rem;
   line-height: 4.3rem;
   font-size: 1.5rem;
-  background-color: #1d809f;
+  background-color: #4A777A;
   -webkit-transition: background-color .15s ease-in-out;
   transition: background-color .15s ease-in-out;
   -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, .1);
@@ -371,7 +371,7 @@ a:active, a:focus, a:hover {
 }
 
 .bg-primary {
-  background-color: #1d809f !important
+  background-color: #0d2b56 !important
 }
 
 .text-primary {
@@ -379,5 +379,5 @@ a:active, a:focus, a:hover {
 }
 
 .text-secondary {
-  color: #ecb807 !important
+  color: #bd3039 !important
 }
