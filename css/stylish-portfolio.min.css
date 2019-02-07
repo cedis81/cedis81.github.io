@@ -136,7 +136,8 @@ h1, h2, h3, h4, h5, h6 {
   width: 250px;
   margin: 0;
   padding: 0;
-  list-style: none
+  list-style: none;
+  text-align: left !important
 }
 
 .sidebar-nav li.sidebar-nav-item a {
@@ -300,7 +301,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .portfolio-item:hover .caption {
-    background-color: rgba(29, 128, 159, .9);
+    background-color: rgba(74, 119, 122, .9);
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem)
   }

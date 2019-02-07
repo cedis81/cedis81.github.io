@@ -21,6 +21,9 @@
     <!-- Custom CSS -->
     <link href="css/stylish-portfolio.min.css" rel="stylesheet">
 
+    <!--  Favicon-->
+    <link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico" />
+
   </head>
 
   <body id="page-top">
@@ -41,7 +44,7 @@
           <a class="js-scroll-trigger" href="#about">About</a>
         </li>
         <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="#services">Tools</a>
+          <a class="js-scroll-trigger" href="#services">Knowledge & Skills</a>
         </li>
         <li class="sidebar-nav-item">
           <a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
@@ -166,45 +169,48 @@
     </section> -->
 
     <!-- Portfolio -->
-    <section class="content-section text-center" id="portfolio">
+    <section class="content-section" id="portfolio">
       <div class="container">
         <div class="content-section-heading text-center">
           <h2 class="text-secondary mb-5">Recent Projects</h2>
         </div>
         <div class="row no-gutters">
+
+          <!-- project 4 -->
           <div class="col-md-3 col-sm-6 p-3">
-            <a class="portfolio-item" href="#tic-tac-toe-modal" data-toggle="modal" data-target="#tic-tac-toe-modal">
+            <a class="portfolio-item" href="#pokemon-go-modal" data-toggle="modal" data-target="#pokemon-go-modal">
               <span class="caption">
-                <span class="caption-content">
-                  <h2>Tic-Tac-Toe</h2>
-                  <!-- <p class="mb-0"></p> -->
-                  <!-- <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
-                </span>
               </span>
-              <img class="img-fluid" src="img/tic-tac-toe.png" alt="">
+              <img class="img-fluid" src="img/pokemon-go.png" alt="">
             </a>
+            <span class="caption-content">
+              <h6 class="text-center">Pokemon Go Raid Leaderboard</h6>
+              <!-- <p class="mb-0"></p> -->
+            </span>
           </div>
 
-          <!-- project 1 modal -->
-          <div class="modal fade" id="tic-tac-toe-modal" tabindex="-1" role="dialog" aria-labelledby="tic-tac-toe-modalTitle" aria-hidden="true">
+          <!-- project 4 modal -->
+          <div class="modal fade" id="pokemon-go-modal" tabindex="-1" role="dialog" aria-labelledby="pokemon-go-modalTitle" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title" id="ticTacToeModalLongTitle">Tic-Tac-Toe</h5>
+                  <h5 class="modal-title" id="pokemonGoModalLongTitle">Pokemon Go Raid Leaderboard</h5>
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                   </button>
                 </div>
                 <div class="modal-body">
                   <p>
-                    This project represents my first foray into web development. I developed a single page application that allows
-                    an authenticated user to play Tic-Tac-Toe. The game logic was created with JavaScript, and the game board was created
-                    with Bootstrap. jQuery was used to communicate with an API that was provided to us. Some of the features I would like
-                    to add in the future are a method for recordkeeping and multi-player functionality.
+                    I consulted a local stakeholder in the Pokemon Go community about creating an app that would make their
+                    lives easier. Using React and Ruby on Rails, I developed an app that allowed an authenticated user to
+                    create a raid entry and view all raid entries created by other users. I would love to continue working
+                    on this app and adding a means for users to sort raids by time, view raids per boss, and even display their
+                    own photos to confirm their time.
                   </p>
                   <dt>
-                    <dd><a class="portfolio-item" href="https://cedis81.github.io/tic-tac-toe-client/" target="_blank">Click here to play</a></dd>
-                    <dd><a class="portfolio-item" href="https://github.com/cedis81/tic-tac-toe-client" target="_blank">Client GitHub repo</a></dd>
+                    <dd><a class="portfolio-item" href="https://cedis81.github.io/tib-raidlb-client/#/" target="_blank">Team Instinct Boston Raid Leaderboard</a></dd>
+                    <dd><a class="portfolio-item" href="https://github.com/cedis81/tib-raidlb-client" target="_blank">Client GitHub repo</a></dd>
+                    <dd><a class="portfolio-item" href="https://github.com/cedis81/tib-backend" target="_blank">Back end GitHub repo</a></dd>
                   </dt>
                 </div>
                 <div class="modal-footer">
@@ -213,63 +219,19 @@
               </div>
             </div>
           </div>
-          <!-- end project 1 modal -->
+          <!-- end project 4 modal -->
 
-          <div class="col-md-3 col-sm-6 p-3">
-            <a class="portfolio-item" href="#fantasy-baseball-modal" data-toggle="modal" data-target="#fantasy-baseball-modal">
-              <span class="caption">
-                <span class="caption-content">
-                  <h2>Fantasy Baseball</h2>
-                  <!-- <p class="mb-0"></p> -->
-                  <!-- <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
-                </span>
-              </span>
-              <img class="img-fluid" src="img/baseball.png" alt="">
-            </a>
-          </div>
-
-          <!-- project 2 modal -->
-          <div class="modal fade" id="fantasy-baseball-modal" tabindex="-1" role="dialog" aria-labelledby="fantasy-baseball-modalTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="fantasyBaseballModalLongTitle">Fantasy Baseball</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body">
-                  <p>
-                    My first attempt at developing a full stack web application. An authenticated user can log in and CRUD
-                    fantasy leagues. The back end API was created using Ruby on Rails, with JavaScript, jQuery, Bootstrap
-                    and Handlebars for the client. Some of the features I would like to add in the future are the ability
-                    to create teams and players with seeded data, with acculumulated category totals displayed.
-                  </p>
-                  <dt>
-                    <dd><a class="portfolio-item" href="https://cedis81.github.io/rails-api-project-client/" target="_blank">Click here to try</a></dd>
-                    <dd><a class="portfolio-item" href="https://github.com/cedis81/rails-api-project-client" target="_blank">Client GitHub repo</a></dd>
-                    <dd><a class="portfolio-item" href="https://github.com/cedis81/rails-api-project-back-end" target="_blank">Back end GitHub repo</a></dd>
-                  </dt>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- end project 2 modal -->
-
+          <!-- project 3 -->
           <div class="col-md-3 col-sm-6 p-3">
             <a class="portfolio-item" href="#survey-says-modal" data-toggle="modal" data-target="#survey-says-modal">
               <span class="caption">
-                <span class="caption-content">
-                  <h2>Survey Says!</h2>
-                  <!-- <p class="mb-0"></p> -->
-                  <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/flat-icons" title="Flat Icons">Flat Icons</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
-                </span>
               </span>
               <img class="img-fluid" src="img/qa.png" alt="">
             </a>
+            <span class="caption-content">
+              <h6 class="text-center">Survey Says!</h6>
+              <!-- <p class="mb-0"></p> -->
+            </span>
           </div>
 
           <!-- project 3 modal -->
@@ -304,41 +266,40 @@
           </div>
           <!-- end project 3 modal -->
 
+          <!-- project 2 -->
           <div class="col-md-3 col-sm-6 p-3">
-            <a class="portfolio-item" href="#pokemon-go-modal" data-toggle="modal" data-target="#pokemon-go-modal">
+            <a class="portfolio-item" href="#fantasy-baseball-modal" data-toggle="modal" data-target="#fantasy-baseball-modal">
               <span class="caption">
-                <span class="caption-content">
-                  <h2>Pokemon Go Raid Leaderboard</h2>
-                  <!-- <p class="mb-0"></p> -->
-                  <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
-                </span>
               </span>
-              <img class="img-fluid" src="img/pokemon-go.png" alt="">
+              <img class="img-fluid" src="img/baseball.png" alt="">
             </a>
+            <span class="caption-content">
+              <h6 class="text-center">Fantasy Baseball</h6>
+              <!-- <p class="mb-0"></p> -->
+            </span>
           </div>
 
-          <!-- project 4 modal -->
-          <div class="modal fade" id="pokemon-go-modal" tabindex="-1" role="dialog" aria-labelledby="pokemon-go-modalTitle" aria-hidden="true">
+          <!-- project 2 modal -->
+          <div class="modal fade" id="fantasy-baseball-modal" tabindex="-1" role="dialog" aria-labelledby="fantasy-baseball-modalTitle" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title" id="pokemonGoModalLongTitle">Pokemon Go Raid Leaderboard</h5>
+                  <h5 class="modal-title" id="fantasyBaseballModalLongTitle">Fantasy Baseball</h5>
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                   </button>
                 </div>
                 <div class="modal-body">
                   <p>
-                    I consulted a local stakeholder in the Pokemon Go community about creating an app that would make their
-                    lives easier. Using React and Ruby on Rails, I developed an app that allowed an authenticated user to
-                    create a raid entry and view all raid entries created by other users. I would love to continue working
-                    on this app and adding a means for users to sort raids by time, view raids per boss, and even display their
-                    own photos to confirm their time.
+                    My first attempt at developing a full stack web application. An authenticated user can log in and CRUD
+                    fantasy leagues. The back end API was created using Ruby on Rails, with JavaScript, jQuery, Bootstrap
+                    and Handlebars for the client. Some of the features I would like to add in the future are the ability
+                    to create teams and players with seeded data, with acculumulated category totals displayed.
                   </p>
                   <dt>
-                    <dd><a class="portfolio-item" href="https://cedis81.github.io/tib-raidlb-client/#/" target="_blank">Team Instinct Boston Raid Leaderboard</a></dd>
-                    <dd><a class="portfolio-item" href="https://github.com/cedis81/tib-raidlb-client" target="_blank">Client GitHub repo</a></dd>
-                    <dd><a class="portfolio-item" href="https://github.com/cedis81/tib-backend" target="_blank">Back end GitHub repo</a></dd>
+                    <dd><a class="portfolio-item" href="https://cedis81.github.io/rails-api-project-client/" target="_blank">Click here to try</a></dd>
+                    <dd><a class="portfolio-item" href="https://github.com/cedis81/rails-api-project-client" target="_blank">Client GitHub repo</a></dd>
+                    <dd><a class="portfolio-item" href="https://github.com/cedis81/rails-api-project-back-end" target="_blank">Back end GitHub repo</a></dd>
                   </dt>
                 </div>
                 <div class="modal-footer">
@@ -347,7 +308,50 @@
               </div>
             </div>
           </div>
-          <!-- end project 4 modal -->
+          <!-- end project 2 modal -->
+
+          <!-- project 1 -->
+          <div class="col-md-3 col-sm-6 p-3">
+            <a class="portfolio-item" href="#tic-tac-toe-modal" data-toggle="modal" data-target="#tic-tac-toe-modal">
+              <span class="caption">
+              </span>
+              <img class="img-fluid" src="img/tic-tac-toe.png" alt="">
+            </a>
+            <span class="caption-content">
+              <h6 class="text-center">Tic-Tac-Toe</h6>
+              <!-- <p class="mb-0"></p> -->
+            </span>
+          </div>
+
+          <!-- project 1 modal -->
+          <div class="modal fade" id="tic-tac-toe-modal" tabindex="-1" role="dialog" aria-labelledby="tic-tac-toe-modalTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="ticTacToeModalLongTitle">Tic-Tac-Toe</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    This project represents my first foray into web development. I developed a single page application that allows
+                    an authenticated user to play Tic-Tac-Toe. The game logic was created with JavaScript, and the game board was created
+                    with Bootstrap. jQuery was used to communicate with an API that was provided to us. Some of the features I would like
+                    to add in the future are a method for recordkeeping and multi-player functionality.
+                  </p>
+                  <dt>
+                    <dd><a class="portfolio-item" href="https://cedis81.github.io/tic-tac-toe-client/" target="_blank">Click here to play</a></dd>
+                    <dd><a class="portfolio-item" href="https://github.com/cedis81/tic-tac-toe-client" target="_blank">Client GitHub repo</a></dd>
+                  </dt>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end project 1 modal -->
 
         </div>
       </div>
@@ -400,6 +404,9 @@
             </a>
           </li> -->
         </ul>
+        <!-- <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+        <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/flat-icons" title="Flat Icons">Flat Icons</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+        <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
         <p class="text-muted small mb-0">Copyright &copy; Cedric Hom 2018</p>
       </div>
     </footer>
