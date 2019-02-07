@@ -246,7 +246,7 @@
                 </div>
                 <div class="modal-body">
                   <p class="modal-text">
-                    For this project, I collaborated with two other web developers to develop a single page application that
+                    For this project, I collaborated with two other web developers (<a href="http://www.tommy-le.com/" target="_blank">Tommy Le</a> and <a href="https://github.com/bbgweb" target="_blank">Bezawit Gebru</a>) to develop a single page application that
                     allows an authenticated user to create surveys. They are also able to view all surveys created by other users
                     and the results. The back end API was created using Express, with JavaScript, jQuery and Handlebars for the
                     client. Git, GitHub and pair programming were used for version control. For future versions, we would like to
@@ -404,10 +404,29 @@
             </a>
           </li> -->
         </ul>
-        <!-- <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
-        <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/flat-icons" title="Flat Icons">Flat Icons</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
-        <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
-        <p class="text-muted small mb-0"><a href="https://cedis81.github.io/credits" target="_blank">Credits</a></p>
+        <p class="text-muted small mb-0"><a href="#credits-modal" data-toggle="modal" data-target="#credits-modal">Credits</a></p>
+        <div class="modal fade" id="credits-modal" tabindex="-1" role="dialog" aria-labelledby="credits-modalTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="creditsModalLongTitle">Icon Credits</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <dt>
+                  <dd class="modal-text">Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></dd>
+                  <dd class="modal-text">Icons made by <a href="https://www.flaticon.com/authors/flat-icons" title="Flat Icons">Flat Icons</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></dd>
+                  <dd class="modal-text">Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></dd>
+                </dt>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
         <p class="text-muted small mb-0">Copyright &copy; Cedric Hom 2018</p>
       </div>
     </footer>
