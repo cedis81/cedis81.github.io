@@ -382,3 +382,7 @@ a:active, a:focus, a:hover {
 .text-secondary {
   color: #bd3039 !important
 }
+
+.modal-text {
+  text-align: left !important
+}
