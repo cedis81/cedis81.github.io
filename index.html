@@ -131,12 +131,12 @@
               <strong>Back End Development</strong>
             </h4>
             <dt class="text-faded mb-0">
-              <dd>Ruby</dd>
-              <dd>Ruby on Rails</dd>
+              <!-- <dd>Ruby</dd>
+              <dd>Ruby on Rails</dd> -->
               <dd>Node.js</dd>
               <dd>Express</dd>
-              <dd>MongoDB</dd>
-              <dd>Mongoose</dd>
+              <!-- <dd>MongoDB</dd>
+              <dd>Mongoose</dd> -->
               <dd>SQL</dd>
             </dt>
           </div>
@@ -175,6 +175,49 @@
           <h2 class="text-secondary mb-5">Recent Projects</h2>
         </div>
         <div class="row no-gutters">
+
+
+          <!-- not hot dog project -->
+          <div class="col-md-3 col-sm-6 p-3">
+            <a class="portfolio-item" href="#not-hot-dog-modal" data-toggle="modal" data-target="#not-hot-dog-modal">
+              <span class="caption">
+              </span>
+              <img class="img-fluid" src="img/svjianyang.jpeg" alt="">
+            </a>
+            <span class="caption-content">
+              <h6 class="text-center">Not Hot Dog</h6>
+              <!-- <p class="mb-0"></p> -->
+            </span>
+          </div>
+
+          <!-- project 3 modal -->
+          <div class="modal fade" id="not-hot-dog-modal" tabindex="-1" role="dialog" aria-labelledby="not-hot-dog-modalTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="notHotDogModalLongTitle">Not Hot Dog</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p class="modal-text">
+                    This project was inspired by the HBO sitcom <a href="https://www.hbo.com/silicon-valley" target="_blank">Silicon Valley</a> where a character created an app that identified if a photo of food was either a hot dog, or...not a hot dog. Read the backstory from Engadget <a href="https://www.engadget.com/2017-05-15-not-hotdog-app-hbo-silicon-valley.html" target="_blank">here</a> (there is strong language if you watch the YouTube video). I used the <a href="https://www.clarifai.com/" target="_blank">Clarifai</a> Predict API with their food recognition <a href="https://www.clarifai.com/models/ai-food-recognition" target="_blank">model</a> to create a basic identifier for hot dogs. A user is able to register, sign in, and submit an image URL to determine if there were hot dogs in the photo. The app will also log the number of entries you've submitted, and how many of them were actually hot dogs. Technologies used: React, Node.js, Express, Postgres. <br><br>Click below to test it out! The back end is hosted for free on Heroku, so please give it a minute in case the app is sleeping. The passwords are encrypted with bcrypt, but please don't use a real email/password combination.
+                  </p>
+                  <dt>
+                    <dd class="modal-text"><a class="portfolio-item" href="https://cedis81.github.io/not-hot-dog/" target="_blank">Not Hot Dog</a></dd>
+                    <dd class="modal-text"><a class="portfolio-item" href="https://github.com/cedis81/not-hot-dog" target="_blank">Client GitHub repo</a></dd>
+                    <dd class="modal-text"><a class="portfolio-item" href="https://github.com/cedis81/not-hot-dog-backend" target="_blank">Back end GitHub repo</a></dd>
+                  </dt>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end not hot dog modal -->
+
 
           <!-- UIE Project -->
           <div class="col-md-3 col-sm-6 p-3">
@@ -263,51 +306,6 @@
             </div>
           </div>
           <!-- end project 4 modal -->
-
-          <!-- project 3 -->
-          <div class="col-md-3 col-sm-6 p-3">
-            <a class="portfolio-item" href="#survey-says-modal" data-toggle="modal" data-target="#survey-says-modal">
-              <span class="caption">
-              </span>
-              <img class="img-fluid" src="img/qa.png" alt="">
-            </a>
-            <span class="caption-content">
-              <h6 class="text-center">Survey Says!</h6>
-              <!-- <p class="mb-0"></p> -->
-            </span>
-          </div>
-
-          <!-- project 3 modal -->
-          <div class="modal fade" id="survey-says-modal" tabindex="-1" role="dialog" aria-labelledby="survey-says-modalTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="surveySaysModalLongTitle">Survey Says!</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body">
-                  <p class="modal-text">
-                    For this project, I collaborated with two other web developers (<a href="https://github.com/Tommyle90" target="_blank">Tommy Le</a> and <a href="https://www.linkedin.com/in/bezawit-bekele/" target="_blank">Bezawit Gebru</a>) to develop a single page application that
-                    allows an authenticated user to create surveys. They are also able to view all surveys created by other users
-                    and the results. The back end API was created using Express, with JavaScript, jQuery and Handlebars for the
-                    client. Git, GitHub and pair programming were used for version control. For future versions, we would like to
-                    limit users to only answer a survey one time, and to perhaps use a chart for results. <br><br>Click below to test it out! Feel free to use demo@demo/demo to log in.
-                  </p>
-                  <dt>
-                    <dd class="modal-text"><a class="portfolio-item" href="https://cedis81.github.io/surveysays-frontend/" target="_blank">Survey Says!</a></dd>
-                    <dd class="modal-text"><a class="portfolio-item" href="https://github.com/cedis81/surveysays-frontend" target="_blank">Client GitHub repo</a></dd>
-                    <dd class="modal-text"><a class="portfolio-item" href="https://github.com/cedis81/surveysays-backend" target="_blank">Back end GitHub repo</a></dd>
-                  </dt>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- end project 3 modal -->
 
           <!-- project 1 -->
           <div class="col-md-3 col-sm-6 p-3">
