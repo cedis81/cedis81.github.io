@@ -386,3 +386,7 @@ a:active, a:focus, a:hover {
 .modal-text {
   text-align: left !important
 }
+
+.project-head {
+  font-weight: bold;
+}

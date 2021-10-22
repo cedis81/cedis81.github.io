@@ -64,7 +64,7 @@
     <!-- Header -->
     <header class="masthead d-flex">
       <div class="container text-center my-auto">
-        <img src="img/cedriclinkedin.jpeg" class="rounded-circle"/>
+        <img src="img/cedriclinkedin.jpeg" class="rounded-circle" alt="profile"/>
         <h1 class="mb-1">Cedric Hom</h1>
         <h3 class="text-top-secondary mb-5">
           <em>Boston-Based Full Stack Web Developer</em>
@@ -113,15 +113,16 @@
             <h4 class="text-secondary">
               <strong>Front End Development</strong>
             </h4>
-            <dt class="text-faded mb-0">
-              <dd>JavaScript</dd>
-              <dd>React</dd>
-              <dd>jQuery</dd>
-              <dd>HTML 5</dd>
-              <dd>CSS/Sass</dd>
-              <dd>Bootstrap</dd>
-              <dd>Handlebars</dd>
-            </dt>
+            <dl>
+              <dt class="text-faded mb-0">
+                <dd>JavaScript</dd>
+                <dd>React</dd>
+                <dd>jQuery</dd>
+                <dd>HTML 5</dd>
+                <dd>CSS/Sass</dd>
+                <dd>Bootstrap</dd>
+                <dd>Handlebars</dd>
+            </dl>
           </div>
           <div class="col-lg-4 col-md-6 mb-5 mb-md-0">
             <span class="service-icon rounded-circle mx-auto mb-3">
@@ -130,15 +131,16 @@
             <h4 class="text-secondary">
               <strong>Back End Development</strong>
             </h4>
-            <dt class="text-faded mb-0">
-              <!-- <dd>Ruby</dd>
-              <dd>Ruby on Rails</dd> -->
-              <dd>Node.js</dd>
-              <dd>Express</dd>
-              <!-- <dd>MongoDB</dd>
-              <dd>Mongoose</dd> -->
-              <dd>SQL</dd>
-            </dt>
+            <dl>
+              <dt class="text-faded mb-0">
+                <!-- <dd>Ruby</dd>
+                <dd>Ruby on Rails</dd> -->
+                <dd>Node.js</dd>
+                <dd>Express</dd>
+                <!-- <dd>MongoDB</dd>
+                <dd>Mongoose</dd> -->
+                <dd>SQL</dd>
+            </dl>
           </div>
           <div class="col-lg-4 col-md-12 mb-5 mb-md-0">
             <span class="service-icon rounded-circle mx-auto mb-3">
@@ -147,12 +149,13 @@
             <h4 class="text-secondary">
               <strong>Bonus</strong>
             </h4>
-            <dt class="text-faded mb-0">
-              <dd>Git/GitHub</dd>
-              <dd>Collaboration</dd>
-              <dd>Mentorship</dd>
-              <dd>Client Interaction</dd>
-            </dt>
+            <dl>
+              <dt class="text-faded mb-0">
+                <dd>Git/GitHub</dd>
+                <dd>Collaboration</dd>
+                <dd>Mentorship</dd>
+                <dd>Client Interaction</dd>
+            </dl>
           </div>
         </div>
       </div>
@@ -184,14 +187,13 @@
               </span>
               <img class="img-fluid" src="img/svjianyang.jpeg" alt="">
             </a>
-            <span class="caption-content">
-              <h6 class="text-center">Not Hot Dog</h6>
-              <!-- <p class="mb-0"></p> -->
+            <span class="caption-content project-head">
+              Not Hot Dog
             </span>
           </div>
 
           <!-- project 3 modal -->
-          <div class="modal fade" id="not-hot-dog-modal" tabindex="-1" role="dialog" aria-labelledby="not-hot-dog-modalTitle" aria-hidden="true">
+          <div class="modal fade" id="not-hot-dog-modal" tabindex="-1" role="dialog" aria-labelledby="notHotDogModalLongTitle" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
               <div class="modal-content">
                 <div class="modal-header">
@@ -204,11 +206,12 @@
                   <p class="modal-text">
                     This project was inspired by the HBO sitcom <a href="https://www.hbo.com/silicon-valley" target="_blank">Silicon Valley</a> where a character created an app that identified if a photo of food was either a hot dog, or...not a hot dog. Read the backstory from Engadget <a href="https://www.engadget.com/2017-05-15-not-hotdog-app-hbo-silicon-valley.html" target="_blank">here</a> (there is strong language if you watch the YouTube video). I used the <a href="https://www.clarifai.com/" target="_blank">Clarifai</a> Predict API with their food recognition <a href="https://www.clarifai.com/models/ai-food-recognition" target="_blank">model</a> to create a basic identifier for hot dogs. A user is able to register, sign in, and submit an image URL to determine if there were hot dogs in the photo. The app will also log the number of entries you've submitted, and how many of them were actually hot dogs. <br><br>Technologies used: JavaScript, React, Node.js, Express, bcrypt.js, Knex.js, PostgreSQL, Clarifai API. <br><br>Click below to test it out! The back end is hosted for free on Heroku, so please give it a minute in case the app is sleeping. The passwords are encrypted with bcrypt, but please don't use a real email/password combination. <br><br>You may use the following login to test: demo@demo/demo
                   </p>
-                  <dt>
-                    <dd class="modal-text"><a class="portfolio-item" href="https://cedis81.github.io/not-hot-dog/" target="_blank">Not Hot Dog</a></dd>
-                    <dd class="modal-text"><a class="portfolio-item" href="https://github.com/cedis81/not-hot-dog" target="_blank">Client GitHub repo</a></dd>
-                    <dd class="modal-text"><a class="portfolio-item" href="https://github.com/cedis81/not-hot-dog-backend" target="_blank">Back end GitHub repo</a></dd>
-                  </dt>
+                  <dl>
+                    <dt>
+                      <dd class="modal-text"><a class="portfolio-item" href="https://cedis81.github.io/not-hot-dog/" target="_blank">Not Hot Dog</a></dd>
+                      <dd class="modal-text"><a class="portfolio-item" href="https://github.com/cedis81/not-hot-dog" target="_blank">Client GitHub repo</a></dd>
+                      <dd class="modal-text"><a class="portfolio-item" href="https://github.com/cedis81/not-hot-dog-backend" target="_blank">Back end GitHub repo</a></dd>
+                  </dl>
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -226,14 +229,13 @@
               </span>
               <img class="img-fluid" src="img/uie-logo.jpg" alt="">
             </a>
-            <span class="caption-content">
-              <h6 class="text-center">UIE Internship Project</h6>
-              <!-- <p class="mb-0"></p> -->
+            <span class="caption-content project-head">
+              UIE Internship Project
             </span>
           </div>
 
           <!-- UIE Project modal -->
-          <div class="modal fade" id="uie-modal" tabindex="-1" role="dialog" aria-labelledby="uie-modalTitle" aria-hidden="true">
+          <div class="modal fade" id="uie-modal" tabindex="-1" role="dialog" aria-labelledby="uieModalLongTitle" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
               <div class="modal-content">
                 <div class="modal-header">
@@ -249,10 +251,11 @@
                   <p class="modal-text">
                     Click the GitHub repo below for more details on the development process and documentation, or click to view a live link on the Beyond the UX Tipping Point talk. Technologies used: HTML, CSS, Flexbox, WordPress, GitHub
                   </p>
-                  <dt>
-                    <dd class="modal-text"><a class="portfolio-item" href="https://github.com/cedis81/jaredlive" target="_blank">Client GitHub repo</a></dd>
-                    <dd class="modal-text"><a class="portfolio-item" href="https://www.uie.com/tipping/" target="_blank">Beyond the UX Tipping Point</a></dd>
-                  </dt>
+                  <dl>
+                    <dt>
+                      <dd class="modal-text"><a class="portfolio-item" href="https://github.com/cedis81/jaredlive" target="_blank">Client GitHub repo</a></dd>
+                      <dd class="modal-text"><a class="portfolio-item" href="https://www.uie.com/tipping/" target="_blank">Beyond the UX Tipping Point</a></dd>
+                  </dl>
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -269,14 +272,13 @@
               </span>
               <img class="img-fluid" src="img/pokemon-go.png" alt="">
             </a>
-            <span class="caption-content">
-              <h6 class="text-center">Pokemon Go Raid Leaderboard</h6>
-              <!-- <p class="mb-0"></p> -->
+            <span class="caption-content project-head">
+              Pokemon Go Raid Leaderboard
             </span>
           </div>
 
           <!-- project 4 modal -->
-          <div class="modal fade" id="pokemon-go-modal" tabindex="-1" role="dialog" aria-labelledby="pokemon-go-modalTitle" aria-hidden="true">
+          <div class="modal fade" id="pokemon-go-modal" tabindex="-1" role="dialog" aria-labelledby="pokemonGoModalLongTitle" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
               <div class="modal-content">
                 <div class="modal-header">
@@ -293,11 +295,12 @@
                     on this app and adding a means for users to sort raids by time, view raids per boss, and even display their
                     own photos to confirm their time. <br><br>Click below to test it out! Feel free to use demo@demo/demo to log in.
                   </p>
-                  <dt>
-                    <dd class="modal-text"><a class="portfolio-item" href="https://cedis81.github.io/tib-raidlb-client/#/" target="_blank">Team Instinct Boston Raid Leaderboard</a></dd>
-                    <dd class="modal-text"><a class="portfolio-item" href="https://github.com/cedis81/tib-raidlb-client" target="_blank">Client GitHub repo</a></dd>
-                    <dd class="modal-text"><a class="portfolio-item" href="https://github.com/cedis81/tib-backend" target="_blank">Back end GitHub repo</a></dd>
-                  </dt>
+                  <dl>
+                    <dt>
+                      <dd class="modal-text"><a class="portfolio-item" href="https://cedis81.github.io/tib-raidlb-client/#/" target="_blank">Team Instinct Boston Raid Leaderboard</a></dd>
+                      <dd class="modal-text"><a class="portfolio-item" href="https://github.com/cedis81/tib-raidlb-client" target="_blank">Client GitHub repo</a></dd>
+                      <dd class="modal-text"><a class="portfolio-item" href="https://github.com/cedis81/tib-backend" target="_blank">Back end GitHub repo</a></dd>
+                  </dl>
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -314,14 +317,13 @@
               </span>
               <img class="img-fluid" src="img/tic-tac-toe.png" alt="">
             </a>
-            <span class="caption-content">
-              <h6 class="text-center">Tic-Tac-Toe</h6>
-              <!-- <p class="mb-0"></p> -->
+            <span class="caption-content project-head">
+              Tic-Tac-Toe
             </span>
           </div>
 
           <!-- project 1 modal -->
-          <div class="modal fade" id="tic-tac-toe-modal" tabindex="-1" role="dialog" aria-labelledby="tic-tac-toe-modalTitle" aria-hidden="true">
+          <div class="modal fade" id="tic-tac-toe-modal" tabindex="-1" role="dialog" aria-labelledby="ticTacToeModalLongTitle" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
               <div class="modal-content">
                 <div class="modal-header">
@@ -337,10 +339,11 @@
                     with Bootstrap. jQuery was used to communicate with an API that was provided to us. Some of the features I would like
                     to add in the future are a method for recordkeeping and multi-player functionality. <br><br>Click below to test it out! Feel free to use demo@demo/demo to log in.
                   </p>
-                  <dt>
-                    <dd class="modal-text"><a class="portfolio-item" href="https://cedis81.github.io/tic-tac-toe-client/" target="_blank">Tic-Tac-Toe</a></dd>
-                    <dd class="modal-text"><a class="portfolio-item" href="https://github.com/cedis81/tic-tac-toe-client" target="_blank">Client GitHub repo</a></dd>
-                  </dt>
+                  <dl>
+                    <dt>
+                      <dd class="modal-text"><a class="portfolio-item" href="https://cedis81.github.io/tic-tac-toe-client/" target="_blank">Tic-Tac-Toe</a></dd>
+                      <dd class="modal-text"><a class="portfolio-item" href="https://github.com/cedis81/tic-tac-toe-client" target="_blank">Client GitHub repo</a></dd>
+                  </dl>
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -402,7 +405,7 @@
           </li> -->
         </ul>
         <p class="text-muted small mb-0"><a href="#credits-modal" data-toggle="modal" data-target="#credits-modal">Credits</a></p>
-        <div class="modal fade" id="credits-modal" tabindex="-1" role="dialog" aria-labelledby="credits-modalTitle" aria-hidden="true">
+        <div class="modal fade" id="credits-modal" tabindex="-1" role="dialog" aria-labelledby="creditsModalLongTitle" aria-hidden="true">
           <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
               <div class="modal-header">
@@ -412,11 +415,12 @@
                 </button>
               </div>
               <div class="modal-body">
-                <dt>
-                  <dd class="modal-text">Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></dd>
-                  <dd class="modal-text">Icons made by <a href="https://www.flaticon.com/authors/flat-icons" title="Flat Icons">Flat Icons</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></dd>
-                  <dd class="modal-text">Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></dd>
-                </dt>
+                <dl>
+                  <dt>
+                    <dd class="modal-text">Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></dd>
+                    <dd class="modal-text">Icons made by <a href="https://www.flaticon.com/authors/flat-icons" title="Flat Icons">Flat Icons</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></dd>
+                    <dd class="modal-text">Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></dd>
+                </dl>
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
